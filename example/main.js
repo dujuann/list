@@ -4,7 +4,6 @@ import CircleBar from '../src/circleBar';
 import AdjPie from '../src/adjPie';
 import mapboxgl from 'mapbox-gl';
 import config from './config';
-import $ from 'jquery';
 import './style.css';
 
 
@@ -76,7 +75,7 @@ map.on('load', function() {
 
 
 //----------------------------循环列表组件--------------------------
-let atlist3=new AlternateList({      
+let atlist=new AlternateList({      
     listId:'alternateList',      //指定传入该组件的元素ID
     interval:1500,      //指定列表的循环间隔
     data:[              //指定列表数据
@@ -135,13 +134,13 @@ let circle2=new CircleBar({
     color:["#F79954","#EA5E45"],
 })
 setInterval(()=>{
-   let option={};
-   let option2={};
-   option.centerValue=Math.floor((30*Math.random()));
-   option2.centerValue=Math.floor((500*Math.random()));
-   circle.updateData(option);           //更新数据
-   circle2.updateData(option2);
-   },1500)
+    let option={};
+    let option2={};
+    option.centerValue=Math.floor((30*Math.random()));
+    option2.centerValue=Math.floor((500*Math.random()));
+    circle.updateData(option);           //更新数据
+    circle2.updateData(option2);
+    },1500)
 //----------------------------------------------------------------
 
 
