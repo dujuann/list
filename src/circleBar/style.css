@@ -1,0 +1,17 @@
+.circle-content svg {
+	transform-origin: center;
+	transform: rotate(-90deg);
+}
+.circle-content div{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+}
+.circle-content div span{
+	color:#fff;
+	display:block;
+	font-size:12px;
+	text-align: center;
+}
+

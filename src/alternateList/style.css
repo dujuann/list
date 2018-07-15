@@ -1,0 +1,82 @@
+.alter-content .list-item {
+	font-size:10px;
+	color:#fff;
+    line-height: 20px;
+     -webkit-transition: color 0.8s,line-height 0.6s;
+    transition:color 0.8s,line-height 0.6s;
+}
+.alter-content .list-item .number{
+	display: inline-block;
+	color:#6F7F9D;
+	 -webkit-transition: color 0.8s;
+    transition:color 0.8s;
+}
+.alter-content .list-item .road{
+    display:inline-block;
+    font-size:12px;
+    padding-left:2px;
+}
+.alter-content .list-item .path{
+	display: inline-block;
+	color:#6F7F9D;
+	padding-left:3px;
+	 -webkit-transition: color 0.8s;
+    transition:color 0.8s;
+}
+.alter-content .list-item .speed {
+	float:right;
+	display: inline-block;
+	right:0;
+}
+.alter-content .list-item .speedtext {
+	display:none;
+}
+.alter-content .list-item .speed .speedunit {
+	display:inline-block;
+	color:#6F7F9D;
+}
+.alter-content .list-item .speed .speedvalue {
+	display:inline-block;
+	 -webkit-transition: font-size 0.8s;
+    transition:font-size 0.8s;
+}
+.alter-content .list-item svg{
+	display:none;
+	opacity:0;
+	 -webkit-transition: opacity 0.8s;
+    transition:opacity 0.8s;
+}
+
+.alter-content .list-item.active {
+    line-height: 25px;
+}
+.alter-content .list-item.active .number{
+	color:#fff;
+}
+.alter-content .list-item.active .path{
+	display:block;
+	padding-left:12px;
+	color:#fff;
+}
+.alter-content .list-item.active .speedtext {
+	display:inline-block;
+	padding-left:12px;
+	color:#6F7F9D;
+}
+.alter-content .list-item.active .speed {
+	float:none;
+	margin-left:2px;
+}
+.alter-content .list-item.active .speed .speedunit{
+	color:#6F7F9D;
+}
+.alter-content .list-item.active .speed .speedvalue{
+	font-size: 16px;
+}
+.alter-content .list-item.active svg{
+	display:block;
+	padding: 3px 0 3px 12px;
+	opacity:1;
+}
+
+
