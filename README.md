@@ -1,6 +1,9 @@
 # list
 * 一些数据展示的基础组件,如时间天气组件、循环列表、进度条、饼状图等
 
+# 相关Demo
+* http://duhoo.cn:3000/BaseComp
+
 # 打开示例程序
     + git clone 'https://github.com/dujuann/list.git'
     + npm install
